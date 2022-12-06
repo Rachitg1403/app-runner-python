@@ -1,0 +1,6 @@
+runtime: python3
+build-command: pip install -r requirements.txt
+start-command: python server.py
+server:
+  port:
+    8080
