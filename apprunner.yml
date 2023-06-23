@@ -5,7 +5,7 @@ build:
     build:
       - pip install -r requirements.txt
 run:
-  command: python new.py
+  command: python server.py
 server:
   port:
     8080
